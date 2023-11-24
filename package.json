@@ -4,11 +4,13 @@
   "description": "Multi-Tab web page for the fictional arqam's rotis restaurant built to pratice widely-used industry tools such as npm, webpack and ES6 Modules",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
   }
